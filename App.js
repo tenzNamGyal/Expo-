@@ -47,7 +47,7 @@ export default function App() {
       <Text style={styles.title}>CST Tasks</Text>
       <StatsBar tasks={tasks} onClearDone={clearDone} />
       <AddTaskForm value={newTitle} onChangeText={setNewTitle} onAdd={addTask} />
-      <FilterBar current={filter} onChange={setFilter} />
+      {/* <FilterBar current={filter} onChange={setFilter} /> */}
       {error && <Text style={styles.error}>Could not load tasks: {error}</Text>}
       <FlatList
         data={visibleTasks}

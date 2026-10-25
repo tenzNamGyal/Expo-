@@ -1,5 +1,5 @@
 // JSONPlaceholder is a free test API: https://jsonplaceholder.typicode.com
-const TASKS_URL = 'https://jsonplaceholder.typicode.com/todos?_limit=8';
+const TASKS_URL = 'https://jsonplaceholder.typicode.com/todo?_limit=8';
 
 export async function fetchTasks() {
   const response = await fetch(TASKS_URL);
