@@ -18,6 +18,9 @@
     },
     "ios": {
       "bundleIdentifier": "bt.edu.cst.tasks"
-    }
+    },
+    "plugins": [
+      "expo-status-bar"
+    ]
   }
 }
